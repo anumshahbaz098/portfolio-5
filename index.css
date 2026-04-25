@@ -71,6 +71,7 @@ padding: 60px;
 }
 .hero-text {
 max-width: 50%;
+z-index: 2;
 }
 .hero-text h1 {
 font-size: 3rem;
@@ -87,6 +88,8 @@ color: #dbe0e9;
 width: 800px;
 height: auto;
 border-radius: 20px;
+overflow: hidden;
+z-index: 1;
 }
 
 .stats {
